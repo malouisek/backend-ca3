@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+/* Define font-family*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+}
+
+main{
+    background-color: lightgoldenrodyellow;
+}
+
+/* Add colors to icons */
+main .fa-id-card{
+    color: #353a40;
+}
+
+main .fa-capsules{
+    color: #353a40;
+}
+
+main .fa-tags{
+    color: #353a40;
+}
+
+main .fa-dollar-sign{
+    color: #353a40;
+}
+
+.d-flex button{
+    margin: 1.5em 0.5em;
+    padding: 0.3em 1.4em;
+}
+
+.d-flex table{
+    margin: 1em 10em;
+}
+
+table .btnedit{
+    color: #ffc107;
+    cursor: pointer;
+}
+
+.success{
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+.error{
+    background-color: tomato;
+    padding: 1em;
+}
